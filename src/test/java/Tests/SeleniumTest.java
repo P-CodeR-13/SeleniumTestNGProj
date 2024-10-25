@@ -14,7 +14,7 @@ public class SeleniumTest {
     @BeforeTest
     public static void Setup(){
         driver = new ChromeDriver();
-        driver.get(HomePage.home_url);
+        driver.get(HomePage.homeUrl);
         driver.manage().window().maximize();
     }
 
